@@ -1,0 +1,101 @@
+/* General */
+
+body {
+  margin-left: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #dfdfdf;
+}
+
+.color-text {
+  font-weight: bold;
+  color: #96e6b3;
+  text-shadow: -4px 2px 0px #f7a072, -6px 5px 0px #da3e52;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3,
+p {
+  font-size: 20px;
+}
+
+p {
+  width: 1000px;
+  line-height: 30px;
+}
+
+/* Home */
+
+#hello {
+  font-size: 112px;
+  margin-top: 300px;
+}
+
+#home p {
+  width: 700px;
+}
+
+/* Projects */
+
+#projects {
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.one-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.one-project a:link {
+  color: black;
+}
+
+.one-project a:visited {
+  color: black;
+}
+
+.one-project a:active {
+  color: #da3e52;
+}
+
+/* Profile */
+
+#profile {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+#contact {
+  margin-top: 80px;
+}
+
+#contact a:link {
+  color: black;
+}
+
+#contact a:visited {
+  color: black;
+}
+
+#contact a:active {
+  color: #96e6b3;
+}
+
+/* Footer */
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  position: sticky;
+}
