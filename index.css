@@ -9,13 +9,13 @@ body {
 
 .color-text {
   font-weight: bold;
-  color: #700453;
-  text-shadow: -4px 4px 0px #4d073a, -7px 7px 0px #38152f;
+  color: #38152f;
+  text-shadow: -4px 4px 0px #70636d, -7px 7px 0px #1a0614;
 }
 
 .color-text-small {
-  color: #700453;
-  text-shadow: -2px 2px 0px #4d073a, -4px 4px 0px #38152f;
+  color: #38152f;
+  text-shadow: -2px 2px 0px #70636d, -4px 4px 0px #1a0614;
 }
 
 .block {
@@ -31,6 +31,7 @@ body {
 h1 {
   font-size: 48px;
   line-height: 48px;
+  color: #1a0614;
 
   @media (max-width: 481px) {
     font-size: 36px;
