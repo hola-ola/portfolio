@@ -1,50 +1,10 @@
 /* General */
 
 body {
-  margin-left: 100px;
+  margin-left: 10vw;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: #dfdfdf;
-}
-
-.switch-bgr-light {
-  height: 40px;
-  width: 80px;
-  border-radius: 20px;
-  background-color: #da3e52;
-  position: absolute;
-  right: 40px;
-  top: 40px;
-}
-
-.switch-bgr-dark {
-  height: 40px;
-  width: 80px;
-  border-radius: 20px;
-  background-color: #da3e52;
-  position: absolute;
-  right: 40px;
-  top: 40px;
-}
-
-.switcher-light {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background-color: #96e6b3;
-  position: absolute;
-  right: 85px;
-  top: 45px;
-}
-
-.switcher-dark {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background-color: #96e6b3;
-  position: absolute;
-  right: 45px;
-  top: 45px;
 }
 
 .color-text {
@@ -53,9 +13,18 @@ body {
   text-shadow: -4px 2px 0px #f7a072, -6px 5px 0px #da3e52;
 }
 
+.block {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
 h1 {
   font-size: 48px;
-  line-height: 60px;
+  line-height: 4vw;
+
+  @media (max-width: 481px) {
+    font-size: 40px;
+  }
 }
 
 h2 {
@@ -68,29 +37,37 @@ p {
 }
 
 p {
-  line-height: 30px;
-  margin-right: 15vw;
+  line-height: 2vw;
+  margin-right: 20vw;
+
+  @media (max-width: 481px) {
+    margin-right: 5vw;
+    font-size: 16px;
+  }
 }
 
 /* Home */
 
 #hello {
   font-size: 112px;
-  margin-top: 300px;
+  margin-top: 45vh;
+}
+
+#about-me {
+  width: 50vw;
+
+  @media (max-width: 481px) {
+    margin-right: 90vw;
+  }
 }
 
 /* Projects */
-
-#projects {
-  margin-top: 150px;
-  margin-bottom: 30px;
-}
 
 .one-project {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 2vh;
 }
 
 .one-project a:link {
@@ -108,12 +85,11 @@ p {
 /* Profile */
 
 #profile {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 25vh;
 }
 
 #contact {
-  margin-top: 80px;
+  margin-top: 15vh;
 }
 
 #contact a:link {
