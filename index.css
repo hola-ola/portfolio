@@ -51,7 +51,7 @@ p {
   font-size: 20px;
 
   @media (max-width: 481px) {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -141,4 +141,8 @@ footer {
   font-size: 12px;
   text-align: center;
   position: sticky;
+
+  @media (max-width: 481px) {
+    font-size: 8px;
+  }
 }
