@@ -7,6 +7,46 @@ body {
   background-color: #dfdfdf;
 }
 
+.switch-bgr-light {
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: #da3e52;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.switch-bgr-dark {
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: #da3e52;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.switcher-light {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #96e6b3;
+  position: absolute;
+  right: 85px;
+  top: 45px;
+}
+
+.switcher-dark {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #96e6b3;
+  position: absolute;
+  right: 45px;
+  top: 45px;
+}
+
 .color-text {
   font-weight: bold;
   color: #96e6b3;
@@ -28,8 +68,8 @@ p {
 }
 
 p {
-  width: 1000px;
   line-height: 30px;
+  margin-right: 300px;
 }
 
 /* Home */
@@ -37,10 +77,6 @@ p {
 #hello {
   font-size: 112px;
   margin-top: 300px;
-}
-
-#home p {
-  width: 700px;
 }
 
 /* Projects */
