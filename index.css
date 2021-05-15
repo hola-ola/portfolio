@@ -21,6 +21,11 @@ body {
 .block {
   margin-top: 15vh;
   margin-bottom: 15vh;
+
+  @media (max-width: 481px) {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
 }
 
 h1 {
@@ -28,7 +33,7 @@ h1 {
   line-height: 48px;
 
   @media (max-width: 481px) {
-    font-size: 40px;
+    font-size: 36px;
   }
 }
 
@@ -56,13 +61,17 @@ p {
 #hello {
   font-size: 112px;
   margin-top: 45vh;
+
+  @media (max-width: 481px) {
+    margin-top: 20vh;
+  }
 }
 
 #about-me {
   width: 50vw;
 
   @media (max-width: 481px) {
-    margin-right: 90vw;
+    width: 90vw;
   }
 }
 
@@ -91,10 +100,18 @@ p {
 
 #profile {
   margin-bottom: 25vh;
+
+  @media (max-width: 481px) {
+    margin-bottom: 5vh;
+  }
 }
 
 #contact {
   margin-top: 15vh;
+
+  @media (max-width: 481px) {
+    margin-top: 5vh;
+  }
 }
 
 #contact a:link {
