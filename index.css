@@ -9,8 +9,13 @@ body {
 
 .color-text {
   font-weight: bold;
-  color: #96e6b3;
-  text-shadow: -4px 2px 0px #f7a072, -6px 5px 0px #da3e52;
+  color: #700453;
+  text-shadow: -4px 4px 0px #4d073a, -7px 7px 0px #38152f;
+}
+
+.color-text-small {
+  color: #700453;
+  text-shadow: -2px 2px 0px #4d073a, -4px 4px 0px #38152f;
 }
 
 .block {
