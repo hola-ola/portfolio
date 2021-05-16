@@ -9,8 +9,8 @@ body {
 
 .color-text {
   font-weight: bold;
-  color: blue;
-  text-shadow: -4px 4px 0px #70636d, -7px 7px 0px #1a0614;
+  color: #2f718a;
+  text-shadow: -4px 4px 0px #5492a8, -7px 7px 0px #1a0614;
 }
 
 .color-text-small {
@@ -78,7 +78,7 @@ p {
 #about-me {
   width: 50vw;
 
-  @@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     width: 100%;
     margin-right: 5px;
   }
